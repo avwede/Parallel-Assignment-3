@@ -25,6 +25,8 @@ You are tasked with the design of the module responsible for measuring the atmos
 Design and implement a solution using 8 threads that will offer a solution for this task. Assume that the temperature readings are taken every 1 minute. In your solution, simulate the operation of the temperature reading sensor by generating a random number from -100F to 70F at every reading. In your report, discuss the efficiency, correctness, and progress guarantee of your program.
 
 ## Evaluation of solution efficiency: Pros vs. Cons
+For problem 1, the program takes on average ~2400 ms to run on my local machine. 
+For problem 2, the program takes on average ~ to run on my local machine.
 
 ## How to Run Problem 1:
 To compile the program, run this command in a terminal in the appropriate directory.
