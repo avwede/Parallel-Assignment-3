@@ -27,9 +27,15 @@ Design and implement a solution using 8 threads that will offer a solution for t
 ## Evaluation of solution efficiency: Pros vs. Cons
 
 ## How to Run Problem 1:
+To compile the program, run this command in a terminal in the appropriate directory.
 ```sh
 javac BirthdayPresentsParty.java 
 java BirthdayPresentsParty 
 ```
 
 ## How to Run Problem 2:
+To compile the program, run this command in a terminal in the appropriate directory.
+```sh
+javac AtmosphericTemperature.java
+java AtmosphericTemperature
+```
