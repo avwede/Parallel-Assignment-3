@@ -27,11 +27,11 @@ Design and implement a solution using 8 threads that will offer a solution for t
 ## Evaluation of solution efficiency: Pros vs. Cons
 For problem 1, the efficiency of the program stems from the type of underlying container used, which was the lock free linked list. I used the linked list implementation from the textbook, and took out the hashing since I was simply inserting integers. To create the randomized integers for the bag, I shuffled a stack of integers from which I pop as the Minotaur adds the randomized gifts to the linked list.
 
-The program takes on average ~2400 ms to run on my local machine which showed significant improvements from a standard implementation. 
+The program takes on average ~2400ms to run on my local machine which showed significant improvements from a standard implementation. 
 
-For problem 2, I utilize thread.sleep to help with thread synchronization and to allow the threads to all be marked before moving to the next iteration. 
+For problem 2, I utilize thread.sleep to help with thread synchronization and to allow the threads to all be marked before moving to the next iteration. I also assign one thread to be the leader, where that thread reports once all threads have completed their iteration.
 
-The program takes on average ~ to run on my local machine.
+The program takes on average ~3400ms if the user inputs a value of 3 hours to run on my local machine.
 
 ## How to Run Problem 1:
 To compile the program, run this command in a terminal in the appropriate directory.
